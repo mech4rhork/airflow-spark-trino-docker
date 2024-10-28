@@ -21,7 +21,7 @@ Dans `airflow-spark/docker/docker-airflow`
 Dans `airflow-spark/docker`
 
     # RUN
-    docker compose up -d
+    docker-compose up -d
 
 ### MinIO + Trino
 Dans `trino-hive-docker/docker-compose`
