@@ -30,13 +30,13 @@ Dans `trino-hive-docker/docker-compose`
     docker build -t my-hive-metastore .
     
     # RUN
-    docker compose up -d
+    docker-compose up -d
 
 ### Superset
 Dans `superset`
 
     # RUN
-    docker compose -f docker-compose-non-dev.yml up -d
+    docker-compose -f docker-compose-non-dev.yml up -d
 ######
 
 ## Ports des interfaces graphiques
@@ -57,8 +57,8 @@ Dans `superset`
     #
     # 8888: Jupyter Notebook (JupyterLab)
     #       	token=mytoken
-    # 8088: Jupyter Notebook (JupyterLab)
-    #       	token=mytoken`
+    # 8088: Superset
+    #
 
 Ouvrir tous dans firefox
 
