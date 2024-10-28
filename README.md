@@ -58,7 +58,8 @@ Dans `superset`
     # 8888: Jupyter Notebook (JupyterLab)
     #       	token=mytoken
     # 8088: Superset
-    #
+    #       	usr=admin
+    #       	pwd=admin
 
 Ouvrir tous dans firefox
 
