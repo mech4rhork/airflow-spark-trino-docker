@@ -40,26 +40,25 @@ Dans `superset`
 ######
 
 ## Ports des interfaces graphiques
-    # trino 422
-        image: 'trinodb/trino:422'
 
-    # 8079: Trino coordinator
-    #       	usr=<ANYTHING>
-    #       	pwd=<NONE REQUIRED>
-    #
-    # 9000: MinIO Console
-    #       	usr=minio
-    #       	pwd=minio123
-    #
-    # 8181: Spark Web UI
-    #
-    # 8282: Airflow UI
-    #
-    # 8888: Jupyter Notebook (JupyterLab)
-    #       	token=mytoken
-    # 8088: Superset
-    #       	usr=admin
-    #       	pwd=admin
+* [8079](http://localhost:8079): Trino coordinator
+    * usr=ANYTHING
+    * pwd=NONE REQUIRED
+
+* [9000](http://localhost:9000): MinIO Console
+    * usr=minio
+    * pwd=minio123
+
+* [8181](http://localhost:8181): Spark Web UI
+
+* [8282](http://localhost:8282): Airflow UI
+
+* [8888](http://localhost:8888): Jupyter Notebook (JupyterLab)
+    * token=mytoken
+
+* [8088](http://localhost:8088): Superset
+    * usr=admin
+    * pwd=admin
 
 Ouvrir tous dans firefox
 
