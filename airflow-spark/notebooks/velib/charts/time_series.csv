@@ -1,0 +1,301 @@
+__timestamp,name,AVG(median_bikes)
+2024-10-29 14:00:00,BNF - Bibliothèque Nationale de France,75.0
+2024-10-29 13:00:00,BNF - Bibliothèque Nationale de France,75.0
+2024-10-29 12:00:00,BNF - Bibliothèque Nationale de France,74.0
+2024-10-29 15:00:00,BNF - Bibliothèque Nationale de France,74.0
+2024-10-29 10:00:00,BNF - Bibliothèque Nationale de France,71.0
+2024-10-29 10:00:00,Emeriau - Beaugrenelle,70.0
+2024-10-29 13:00:00,Emeriau - Beaugrenelle,70.0
+2024-10-29 14:00:00,Emeriau - Beaugrenelle,70.0
+2024-10-29 15:00:00,Emeriau - Beaugrenelle,70.0
+2024-10-30 12:00:00,Malesherbes - Place de la Madeleine,70.0
+2024-10-30 13:00:00,Malesherbes - Place de la Madeleine,70.0
+2024-10-29 14:00:00,Assemblée Nationale,70.0
+2024-10-29 15:00:00,Assemblée Nationale,69.0
+2024-10-29 13:00:00,Grenelle - Dr Finlay,68.0
+2024-10-30 12:00:00,Grenelle - Dr Finlay,68.0
+2024-10-29 12:00:00,Emeriau - Beaugrenelle,68.0
+2024-10-29 14:00:00,Grenelle - Dr Finlay,67.0
+2024-10-30 09:00:00,Jean de la Fontaine - Boulainvilliers,67.0
+2024-10-30 10:00:00,Jean de la Fontaine - Boulainvilliers,67.0
+2024-10-30 10:00:00,Grenelle - Dr Finlay,67.0
+2024-10-30 10:00:00,Emeriau - Beaugrenelle,67.0
+2024-10-29 14:00:00,Jean de la Fontaine - Boulainvilliers,67.0
+2024-10-29 12:00:00,Assemblée Nationale,67.0
+2024-10-30 10:00:00,Bercy.,66.0
+2024-10-30 10:00:00,Malesherbes - Place de la Madeleine,66.0
+2024-10-30 14:00:00,Malesherbes - Place de la Madeleine,66.0
+2024-10-29 13:00:00,Jean de la Fontaine - Boulainvilliers,66.0
+2024-10-29 15:00:00,Place du Palais Royal,66.0
+2024-10-30 15:00:00,Emeriau - Beaugrenelle,66.0
+2024-10-30 13:00:00,Bercy.,66.0
+2024-10-30 09:00:00,Malesherbes - Place de la Madeleine,66.0
+2024-10-30 09:00:00,Bercy.,66.0
+2024-10-29 14:00:00,Bercy.,66.0
+2024-10-29 10:00:00,Bercy.,66.0
+2024-10-30 15:00:00,Grenelle - Dr Finlay,66.0
+2024-10-29 15:00:00,Jean de la Fontaine - Boulainvilliers,66.0
+2024-10-29 13:00:00,Assemblée Nationale,65.5
+2024-10-30 14:00:00,Place du Palais Royal,65.0
+2024-10-29 12:00:00,Bercy.,65.0
+2024-10-30 08:00:00,Jean de la Fontaine - Boulainvilliers,65.0
+2024-10-30 08:00:00,Bercy.,65.0
+2024-10-29 14:00:00,Malesherbes - Place de la Madeleine,65.0
+2024-10-30 15:00:00,Place du Palais Royal,65.0
+2024-10-29 12:00:00,Grenelle - Dr Finlay,65.0
+2024-10-30 09:00:00,Grenelle - Dr Finlay,65.0
+2024-10-29 12:00:00,Jean de la Fontaine - Boulainvilliers,64.5
+2024-10-29 10:00:00,Enfants du Paradis - Peupliers,64.0
+2024-10-29 13:00:00,Bercy.,64.0
+2024-10-30 12:00:00,Jean de la Fontaine - Boulainvilliers,64.0
+2024-10-30 13:00:00,Place du Palais Royal,64.0
+2024-10-30 08:00:00,Malesherbes - Place de la Madeleine,64.0
+2024-10-30 14:00:00,Musée d'Orsay,64.0
+2024-10-30 14:00:00,Bercy.,64.0
+2024-10-30 13:00:00,Jean de la Fontaine - Boulainvilliers,64.0
+2024-10-29 15:00:00,Bercy.,64.0
+2024-10-29 13:00:00,Place du Palais Royal,63.0
+2024-10-29 10:00:00,Malesherbes - Place de la Madeleine,63.0
+2024-10-29 15:00:00,Grenelle - Dr Finlay,63.0
+2024-10-29 14:00:00,Place du Palais Royal,63.0
+2024-10-30 14:00:00,Emeriau - Beaugrenelle,63.0
+2024-10-30 14:00:00,Grenelle - Dr Finlay,62.0
+2024-10-30 13:00:00,Grenelle - Dr Finlay,62.0
+2024-10-30 15:00:00,Assemblée Nationale,62.0
+2024-10-30 12:00:00,Emeriau - Beaugrenelle,62.0
+2024-10-30 08:00:00,Grenelle - Dr Finlay,62.0
+2024-10-30 13:00:00,Musée d'Orsay,62.0
+2024-10-29 13:00:00,Malesherbes - Place de la Madeleine,62.0
+2024-10-30 08:00:00,Regnault - Patay,61.0
+2024-10-30 12:00:00,Musée d'Orsay,61.0
+2024-10-29 10:00:00,Grenelle - Dr Finlay,61.0
+2024-10-30 09:00:00,Regnault - Patay,61.0
+2024-10-29 12:00:00,Musée d'Orsay,61.0
+2024-10-29 12:00:00,Place du Palais Royal,61.0
+2024-10-30 13:00:00,Emeriau - Beaugrenelle,61.0
+2024-10-29 10:00:00,Assemblée Nationale,61.0
+2024-10-29 10:00:00,Jean de la Fontaine - Boulainvilliers,61.0
+2024-10-30 15:00:00,Regnault - Patay,61.0
+2024-10-30 12:00:00,Regnault - Patay,60.0
+2024-10-30 15:00:00,Bercy.,60.0
+2024-10-30 14:00:00,Place Lafayette,60.0
+2024-10-29 12:00:00,Malesherbes - Place de la Madeleine,60.0
+2024-10-29 10:00:00,Regnault - Patay,60.0
+2024-10-30 10:00:00,Regnault - Patay,60.0
+2024-10-30 14:00:00,Route de Sèvres - Porte de Bagatelle,60.0
+2024-10-30 15:00:00,Route de Sèvres - Porte de Bagatelle,60.0
+2024-10-30 08:00:00,Route de Sèvres - Porte de Bagatelle,59.0
+2024-10-30 09:00:00,Bastille - Biscornet,59.0
+2024-10-30 09:00:00,Route de Sèvres - Porte de Bagatelle,59.0
+2024-10-29 13:00:00,Musée d'Orsay,59.0
+2024-10-29 14:00:00,Enfants du Paradis - Peupliers,59.0
+2024-10-29 15:00:00,Route de Sèvres - Porte de Bagatelle,59.0
+2024-10-29 14:00:00,Musée d'Orsay,59.0
+2024-10-30 14:00:00,Jean de la Fontaine - Boulainvilliers,59.0
+2024-10-30 12:00:00,Assemblée Nationale,59.0
+2024-10-30 08:00:00,Bastille - Biscornet,59.0
+2024-10-30 15:00:00,Place Lafayette,59.0
+2024-10-29 13:00:00,Enfants du Paradis - Peupliers,59.0
+2024-10-30 12:00:00,Place du Palais Royal,59.0
+2024-10-30 15:00:00,Jean de la Fontaine - Boulainvilliers,58.0
+2024-10-30 15:00:00,Musée d'Orsay,58.0
+2024-10-30 14:00:00,Regnault - Patay,58.0
+2024-10-29 14:00:00,Regnault - Patay,58.0
+2024-10-30 13:00:00,Route de Sèvres - Porte de Bagatelle,58.0
+2024-10-30 08:00:00,Place Lafayette,58.0
+2024-10-30 10:00:00,Place du Palais Royal,58.0
+2024-10-30 08:00:00,Parc André Citroën,58.0
+2024-10-30 12:00:00,Route de Sèvres - Porte de Bagatelle,58.0
+2024-10-29 15:00:00,Musée d'Orsay,58.0
+2024-10-30 12:00:00,Bercy.,58.0
+2024-10-30 12:00:00,Place Lafayette,58.0
+2024-10-29 15:00:00,Malesherbes - Place de la Madeleine,57.0
+2024-10-30 10:00:00,Place Lafayette,57.0
+2024-10-30 14:00:00,BNF - Bibliothèque Nationale de France,57.0
+2024-10-29 10:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,57.0
+2024-10-30 09:00:00,Emeriau - Beaugrenelle,57.0
+2024-10-30 15:00:00,BNF - Bibliothèque Nationale de France,57.0
+2024-10-30 09:00:00,Place de la Reine Astrid,57.0
+2024-10-30 13:00:00,Assemblée Nationale,57.0
+2024-10-30 10:00:00,Route de Sèvres - Porte de Bagatelle,57.0
+2024-10-30 10:00:00,Bastille - Biscornet,57.0
+2024-10-29 12:00:00,Regnault - Patay,57.0
+2024-10-30 13:00:00,Regnault - Patay,57.0
+2024-10-29 10:00:00,Place du Palais Royal,57.0
+2024-10-30 15:00:00,Malesherbes - Place de la Madeleine,57.0
+2024-10-30 13:00:00,Place Lafayette,57.0
+2024-10-29 15:00:00,Enfants du Paradis - Peupliers,56.5
+2024-10-29 10:00:00,Place de la Reine Astrid,56.0
+2024-10-30 14:00:00,Quai Panhard et Levassor,56.0
+2024-10-30 10:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,56.0
+2024-10-29 12:00:00,Bastille - Biscornet,56.0
+2024-10-30 09:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,56.0
+2024-10-30 14:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,56.0
+2024-10-29 10:00:00,Hôpital Européen Georges Pompidou,56.0
+2024-10-29 14:00:00,Route de Sèvres - Porte de Bagatelle,56.0
+2024-10-30 14:00:00,Assemblée Nationale,56.0
+2024-10-29 12:00:00,Route de Sèvres - Porte de Bagatelle,56.0
+2024-10-29 13:00:00,Route de Sèvres - Porte de Bagatelle,56.0
+2024-10-29 15:00:00,Regnault - Patay,56.0
+2024-10-30 15:00:00,Gare de Lyon - Roland Barthes,56.0
+2024-10-29 14:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,56.0
+2024-10-30 09:00:00,Parc André Citroën,56.0
+2024-10-30 13:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,56.0
+2024-10-29 15:00:00,Bastille - Biscornet,56.0
+2024-10-30 08:00:00,Quai Panhard et Levassor,56.0
+2024-10-29 15:00:00,Place de la Reine Astrid,56.0
+2024-10-30 08:00:00,Emeriau - Beaugrenelle,55.0
+2024-10-29 10:00:00,Place Marcel Sembat,55.0
+2024-10-30 09:00:00,Assemblée Nationale,55.0
+2024-10-30 15:00:00,Quai Panhard et Levassor,55.0
+2024-10-30 10:00:00,Hôpital Européen Georges Pompidou,55.0
+2024-10-30 13:00:00,Quai Panhard et Levassor,55.0
+2024-10-30 10:00:00,Assemblée Nationale,55.0
+2024-10-29 10:00:00,Bastille - Biscornet,55.0
+2024-10-30 09:00:00,Quai Panhard et Levassor,55.0
+2024-10-30 10:00:00,Quai Panhard et Levassor,55.0
+2024-10-30 14:00:00,Place de la Reine Astrid,55.0
+2024-10-29 14:00:00,Place de la Reine Astrid,55.0
+2024-10-30 10:00:00,Place de la Reine Astrid,55.0
+2024-10-29 13:00:00,Regnault - Patay,55.0
+2024-10-29 10:00:00,Route de Sèvres - Porte de Bagatelle,55.0
+2024-10-30 12:00:00,Quai Panhard et Levassor,55.0
+2024-10-29 14:00:00,Bastille - Biscornet,55.0
+2024-10-29 12:00:00,Enfants du Paradis - Peupliers,55.0
+2024-10-30 14:00:00,Gare de Lyon - Roland Barthes,54.0
+2024-10-30 15:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,54.0
+2024-10-29 13:00:00,Place Marcel Sembat,54.0
+2024-10-30 12:00:00,Hôpital Européen Georges Pompidou,54.0
+2024-10-29 10:00:00,Filles Saint-Thomas - Place de la Bourse,54.0
+2024-10-30 09:00:00,Filles Saint-Thomas - Place de la Bourse,54.0
+2024-10-30 10:00:00,Filles Saint-Thomas - Place de la Bourse,54.0
+2024-10-30 13:00:00,Place de la Reine Astrid,54.0
+2024-10-30 10:00:00,Place Marcel Sembat,54.0
+2024-10-29 10:00:00,Place du Canada,54.0
+2024-10-30 09:00:00,Terroirs de France - Lheureux,54.0
+2024-10-29 13:00:00,Bastille - Biscornet,54.0
+2024-10-29 15:00:00,Place Marcel Sembat,54.0
+2024-10-30 08:00:00,Terroirs de France - Lheureux,54.0
+2024-10-29 14:00:00,Place Marcel Sembat,54.0
+2024-10-29 10:00:00,Place Lafayette,54.0
+2024-10-29 13:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,54.0
+2024-10-30 13:00:00,Gare de Lyon - Roland Barthes,54.0
+2024-10-29 14:00:00,Terroirs de France - Lheureux,54.0
+2024-10-30 15:00:00,Place de la Reine Astrid,54.0
+2024-10-30 12:00:00,Place de la Reine Astrid,54.0
+2024-10-29 13:00:00,Filles Saint-Thomas - Place de la Bourse,54.0
+2024-10-30 09:00:00,Hôpital Européen Georges Pompidou,54.0
+2024-10-30 09:00:00,Place Lafayette,54.0
+2024-10-29 12:00:00,Place de la Reine Astrid,53.5
+2024-10-30 14:00:00,Place du Canada,53.0
+2024-10-29 13:00:00,Terroirs de France - Lheureux,53.0
+2024-10-29 10:00:00,Terroirs de France - Lheureux,53.0
+2024-10-29 15:00:00,Parc André Citroën,53.0
+2024-10-29 13:00:00,Place de la Reine Astrid,53.0
+2024-10-30 13:00:00,Hôpital Européen Georges Pompidou,53.0
+2024-10-30 08:00:00,Filles Saint-Thomas - Place de la Bourse,53.0
+2024-10-29 12:00:00,Place Marcel Sembat,53.0
+2024-10-30 13:00:00,Place du Canada,53.0
+2024-10-30 14:00:00,Hôpital Européen Georges Pompidou,53.0
+2024-10-29 15:00:00,Place Lafayette,52.5
+2024-10-29 12:00:00,Quai Panhard et Levassor,52.0
+2024-10-30 13:00:00,BNF - Bibliothèque Nationale de France,52.0
+2024-10-30 10:00:00,Terroirs de France - Lheureux,52.0
+2024-10-30 14:00:00,Place Marcel Sembat,52.0
+2024-10-29 10:00:00,Quai Panhard et Levassor,52.0
+2024-10-29 12:00:00,Place du Canada,52.0
+2024-10-29 13:00:00,Place du Canada,52.0
+2024-10-29 12:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,52.0
+2024-10-29 14:00:00,Place Lafayette,52.0
+2024-10-30 12:00:00,Place du Canada,52.0
+2024-10-30 10:00:00,Gare de Lyon - Roland Barthes,52.0
+2024-10-29 12:00:00,Terroirs de France - Lheureux,52.0
+2024-10-29 12:00:00,Filles Saint-Thomas - Place de la Bourse,52.0
+2024-10-30 12:00:00,Gare de Lyon - Roland Barthes,51.0
+2024-10-30 12:00:00,Filles Saint-Thomas - Place de la Bourse,51.0
+2024-10-30 09:00:00,Place Marcel Sembat,51.0
+2024-10-30 15:00:00,Place Marcel Sembat,51.0
+2024-10-29 15:00:00,Gare de Lyon - Roland Barthes,51.0
+2024-10-29 12:00:00,Pau Casals - Neuve Tolbiac,51.0
+2024-10-30 13:00:00,Pau Casals - Neuve Tolbiac,51.0
+2024-10-29 15:00:00,Quai Panhard et Levassor,51.0
+2024-10-29 13:00:00,Place Lafayette,51.0
+2024-10-30 15:00:00,Hôpital Européen Georges Pompidou,51.0
+2024-10-29 13:00:00,Quai Panhard et Levassor,51.0
+2024-10-30 08:00:00,Hôpital Européen Georges Pompidou,51.0
+2024-10-29 15:00:00,Terroirs de France - Lheureux,51.0
+2024-10-29 13:00:00,Hôpital Européen Georges Pompidou,51.0
+2024-10-30 13:00:00,Place Marcel Sembat,51.0
+2024-10-30 10:00:00,Pau Casals - Neuve Tolbiac,50.5
+2024-10-29 14:00:00,Parc André Citroën,50.0
+2024-10-30 10:00:00,Parc André Citroën,50.0
+2024-10-29 14:00:00,Quai Panhard et Levassor,50.0
+2024-10-30 15:00:00,Filles Saint-Thomas - Place de la Bourse,50.0
+2024-10-29 13:00:00,Pau Casals - Neuve Tolbiac,50.0
+2024-10-29 14:00:00,Filles Saint-Thomas - Place de la Bourse,50.0
+2024-10-29 15:00:00,Filles Saint-Thomas - Place de la Bourse,50.0
+2024-10-29 12:00:00,Hôpital Européen Georges Pompidou,50.0
+2024-10-29 12:00:00,Place Lafayette,50.0
+2024-10-30 14:00:00,Pau Casals - Neuve Tolbiac,50.0
+2024-10-30 13:00:00,Filles Saint-Thomas - Place de la Bourse,49.0
+2024-10-30 15:00:00,Parc André Citroën,49.0
+2024-10-30 12:00:00,Place Marcel Sembat,49.0
+2024-10-29 15:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,49.0
+2024-10-29 10:00:00,Parc André Citroën,49.0
+2024-10-29 14:00:00,Place du Canada,49.0
+2024-10-30 09:00:00,Gare de Lyon - Roland Barthes,49.0
+2024-10-29 14:00:00,Gare de Lyon - Roland Barthes,49.0
+2024-10-30 12:00:00,Pau Casals - Neuve Tolbiac,49.0
+2024-10-29 10:00:00,Gare de Lyon - Roland Barthes,49.0
+2024-10-30 15:00:00,Pau Casals - Neuve Tolbiac,49.0
+2024-10-30 12:00:00,Parc André Citroën,49.0
+2024-10-30 13:00:00,Parc André Citroën,49.0
+2024-10-29 15:00:00,Pau Casals - Neuve Tolbiac,49.0
+2024-10-29 10:00:00,Pau Casals - Neuve Tolbiac,49.0
+2024-10-30 15:00:00,Place du Canada,49.0
+2024-10-30 12:00:00,BNF - Bibliothèque Nationale de France,48.0
+2024-10-30 09:00:00,Place du Palais Royal,48.0
+2024-10-29 12:00:00,Parc André Citroën,48.0
+2024-10-29 14:00:00,Hôpital Européen Georges Pompidou,48.0
+2024-10-30 09:00:00,Pau Casals - Neuve Tolbiac,48.0
+2024-10-30 08:00:00,Place Marcel Sembat,48.0
+2024-10-30 08:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,48.0
+2024-10-29 15:00:00,Place du Canada,48.0
+2024-10-30 15:00:00,Bastille - Biscornet,48.0
+2024-10-29 14:00:00,Pau Casals - Neuve Tolbiac,48.0
+2024-10-30 10:00:00,Enfants du Paradis - Peupliers,48.0
+2024-10-30 10:00:00,Place du Canada,47.0
+2024-10-30 14:00:00,Parc André Citroën,47.0
+2024-10-30 14:00:00,Filles Saint-Thomas - Place de la Bourse,47.0
+2024-10-30 09:00:00,Place du Canada,47.0
+2024-10-30 08:00:00,Pau Casals - Neuve Tolbiac,47.0
+2024-10-30 09:00:00,Enfants du Paradis - Peupliers,47.0
+2024-10-30 08:00:00,Gare de Lyon - Roland Barthes,47.0
+2024-10-30 13:00:00,Terroirs de France - Lheureux,46.0
+2024-10-30 12:00:00,M.- A. Lagroua Weill-Hallé -  F. Dolto,46.0
+2024-10-29 10:00:00,Musée d'Orsay,46.0
+2024-10-30 12:00:00,Bastille - Biscornet,46.0
+2024-10-30 13:00:00,Bastille - Biscornet,46.0
+2024-10-30 14:00:00,Terroirs de France - Lheureux,45.0
+2024-10-30 08:00:00,Place de la Reine Astrid,45.0
+2024-10-30 08:00:00,Assemblée Nationale,45.0
+2024-10-30 12:00:00,Terroirs de France - Lheureux,45.0
+2024-10-29 13:00:00,Parc André Citroën,45.0
+2024-10-30 08:00:00,Place du Canada,45.0
+2024-10-30 10:00:00,BNF - Bibliothèque Nationale de France,44.0
+2024-10-30 15:00:00,Terroirs de France - Lheureux,44.0
+2024-10-30 13:00:00,Enfants du Paradis - Peupliers,44.0
+2024-10-30 14:00:00,Bastille - Biscornet,43.0
+2024-10-29 13:00:00,Gare de Lyon - Roland Barthes,43.0
+2024-10-29 12:00:00,Gare de Lyon - Roland Barthes,43.0
+2024-10-30 12:00:00,Enfants du Paradis - Peupliers,43.0
+2024-10-29 15:00:00,Hôpital Européen Georges Pompidou,42.0
+2024-10-30 09:00:00,BNF - Bibliothèque Nationale de France,42.0
+2024-10-30 10:00:00,Musée d'Orsay,40.0
+2024-10-30 08:00:00,Place du Palais Royal,39.0
+2024-10-30 14:00:00,Enfants du Paradis - Peupliers,39.0
+2024-10-30 15:00:00,Enfants du Paradis - Peupliers,39.0
+2024-10-30 09:00:00,Musée d'Orsay,35.0
+2024-10-30 08:00:00,Enfants du Paradis - Peupliers,34.0
+2024-10-30 08:00:00,Musée d'Orsay,29.0
+2024-10-30 08:00:00,BNF - Bibliothèque Nationale de France,27.0
