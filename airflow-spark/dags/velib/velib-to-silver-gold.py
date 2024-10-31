@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 # Parameters
 ###############################################
 spark_master = "spark://spark:7077"
-spark_app_name = "velib-to-silver"
+spark_app_name = "velib-to-silver-gold"
 
 def exec_bronze_to_silver_etl():
     exec_1_extract()
@@ -23,7 +23,7 @@ default_args = {
 
 # Create the DAG
 with DAG(
-    dag_id='velib-to-silver',
+    dag_id='velib-to-silver-gold',
     default_args=default_args,
     schedule_interval='0 1 * * *',  # Schedule to run every day at 1 A.M.
     catchup=False,
@@ -67,7 +67,7 @@ default_args = {
 }
 
 dag = DAG(
-        dag_id="spark-app-velib-to-silver", 
+        dag_id="spark-app-velib-to-silver-gold",
         description="This DAG runs a Pyspark app that uses modules.",
         default_args=default_args, 
         schedule_interval=timedelta(1)
@@ -76,9 +76,9 @@ dag = DAG(
 start = DummyOperator(task_id="start", dag=dag)
 
 spark_job = SparkSubmitOperator(
-    task_id="velib-to-silver",
-    application="/usr/local/spark/app/spark-app-velib-to-silver.py", # Spark application path created in airflow and spark cluster
-    name="spark-app-velib-to-silver",
+    task_id="velib-to-silver-gold",
+    application="/usr/local/spark/app/spark-app-velib-to-silver-gold.py", # Spark application path created in airflow and spark cluster
+    name="spark-app-velib-to-silver-gold",
     conn_id="spark_default",
     verbose=1,
     packages='org.apache.hadoop:hadoop-aws:3.2.0,org.apache.hadoop:hadoop-common:3.2.0,io.trino:trino-jdbc:422',

@@ -111,3 +111,93 @@ for query in queries:
 # Close the cursor and connection
 cur.close()
 conn.close()
+
+print("######################################")
+print("5. Gold 1. Calculate Turnover Rate by Station per Time Range")
+print("######################################")
+from pyspark.sql.window import Window
+
+window_spec = Window.partitionBy("stationcode").orderBy("duedate")
+
+df_turnover = df_transformed \
+    .withColumn("prev_numbikesavailable", F.lag("numbikesavailable").over(window_spec)) \
+    .withColumn("turnover_rate", F.abs(F.col("numbikesavailable") - F.col("prev_numbikesavailable"))) \
+    .groupBy("stationcode", "part_day", "part_minute") \
+    .agg(F.sum("turnover_rate").alias("total_turnover"))
+
+print("######################################")
+print("6. Gold 2. Basic Statistics per Station per Time Range")
+print("######################################")
+
+df_stats = df_transformed.groupBy("stationcode", "part_day", "part_minute") \
+    .agg(
+        F.avg("numbikesavailable").alias("avg_bikes"),
+        F.expr("percentile(numbikesavailable, 0.5)").alias("median_bikes"),
+        F.min("numbikesavailable").alias("min_bikes"),
+        F.max("numbikesavailable").alias("max_bikes"),
+        F.avg("fill_ratio").alias("avg_fill_ratio")
+    )
+
+print("######################################")
+print("7. Gold 3. Save Aggregates to Gold Tier in MinIO")
+print("######################################")
+s3_output_path_gold_turnover = "s3a://velib/gold/turnover_rate/"
+s3_output_path_gold_stats = "s3a://velib/gold/stats/"
+
+df_turnover.write \
+    .partitionBy("part_day") \
+    .format("parquet") \
+    .mode("overwrite") \
+    .save(s3_output_path_gold_turnover)
+
+df_stats.write \
+    .partitionBy("part_day") \
+    .format("parquet") \
+    .mode("overwrite") \
+    .save(s3_output_path_gold_stats)
+
+print("######################################")
+print("8. Gold 4. Register Gold Tables in Trino")
+print("######################################")
+s3_output_path_gold = "s3a://velib/gold/"
+s3_output_path_gold_turnover = "s3a://velib/gold/turnover_rate/"
+s3_output_path_gold_stats = "s3a://velib/gold/stats/"
+
+gold_table_queries = [
+    f"CREATE SCHEMA IF NOT EXISTS minio.velib_gold WITH (location = '{s3_output_path_gold}')",
+    f"""
+    CREATE TABLE IF NOT EXISTS minio.velib_gold.turnover_rate (
+        stationcode VARCHAR,
+        part_minute VARCHAR,
+        total_turnover BIGINT,
+        part_day VARCHAR
+    ) 
+    WITH (
+        format = 'PARQUET',
+        partitioned_by = ARRAY['part_day'],
+        external_location = '{s3_output_path_gold_turnover}'
+    )
+    """,
+    f"""
+    CREATE TABLE IF NOT EXISTS minio.velib_gold.stats (
+        stationcode VARCHAR,
+        part_minute VARCHAR,
+        avg_bikes DOUBLE,
+        median_bikes DOUBLE,
+        min_bikes BIGINT,
+        max_bikes BIGINT,
+        avg_fill_ratio DOUBLE,
+        part_day VARCHAR
+    ) 
+    WITH (
+        format = 'PARQUET',
+        partitioned_by = ARRAY['part_day'],
+        external_location = '{s3_output_path_gold_stats}'
+    )
+    """,
+    "CALL system.sync_partition_metadata('velib_gold', 'turnover_rate', 'ADD')",
+    "CALL system.sync_partition_metadata('velib_gold', 'stats', 'ADD')"
+]
+
+for query in gold_table_queries:
+    cur.execute(query)
